@@ -12,6 +12,11 @@
 		7168628B1F710E3900C765D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716862891F710E3900C765D6 /* Main.storyboard */; };
 		7168628D1F710E3900C765D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7168628C1F710E3900C765D6 /* Assets.xcassets */; };
 		716862901F710E3900C765D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7168628E1F710E3900C765D6 /* LaunchScreen.storyboard */; };
+		7168629A1F710ED800C765D6 /* TraceRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 716862991F710ED800C765D6 /* TraceRoute.m */; };
+		7168629C1F710EE200C765D6 /* Hop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7168629B1F710EE200C765D6 /* Hop.m */; };
+		716862A21F710F0E00C765D6 /* BDHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 716862A11F710F0E00C765D6 /* BDHost.m */; };
+		716862A61F710F2A00C765D6 /* CDZPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = 716862A51F710F2A00C765D6 /* CDZPinger.m */; };
+		716862A91F710FF000C765D6 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 716862A81F710FF000C765D6 /* SimplePing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,17 @@
 		7168628C1F710E3900C765D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7168628F1F710E3900C765D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716862911F710E3900C765D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716862971F710EAD00C765D6 /* TraceRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceRoute.h; sourceTree = "<group>"; };
+		716862981F710EC600C765D6 /* SimpleBS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleBS-Bridging-Header.h"; sourceTree = "<group>"; };
+		716862991F710ED800C765D6 /* TraceRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceRoute.m; sourceTree = "<group>"; };
+		7168629B1F710EE200C765D6 /* Hop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hop.m; sourceTree = "<group>"; };
+		7168629D1F710EEE00C765D6 /* Hop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hop.h; sourceTree = "<group>"; };
+		716862A11F710F0E00C765D6 /* BDHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDHost.m; sourceTree = "<group>"; };
+		716862A31F710F1400C765D6 /* BDHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDHost.h; sourceTree = "<group>"; };
+		716862A51F710F2A00C765D6 /* CDZPinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZPinger.m; sourceTree = "<group>"; };
+		716862A71F710FEA00C765D6 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		716862A81F710FF000C765D6 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		716862AA1F7110A600C765D6 /* CDZPinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZPinger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,17 @@
 				7168628C1F710E3900C765D6 /* Assets.xcassets */,
 				7168628E1F710E3900C765D6 /* LaunchScreen.storyboard */,
 				716862911F710E3900C765D6 /* Info.plist */,
+				716862971F710EAD00C765D6 /* TraceRoute.h */,
+				716862991F710ED800C765D6 /* TraceRoute.m */,
+				716862981F710EC600C765D6 /* SimpleBS-Bridging-Header.h */,
+				7168629D1F710EEE00C765D6 /* Hop.h */,
+				7168629B1F710EE200C765D6 /* Hop.m */,
+				716862AA1F7110A600C765D6 /* CDZPinger.h */,
+				716862A11F710F0E00C765D6 /* BDHost.m */,
+				716862A31F710F1400C765D6 /* BDHost.h */,
+				716862A51F710F2A00C765D6 /* CDZPinger.m */,
+				716862A71F710FEA00C765D6 /* SimplePing.h */,
+				716862A81F710FF000C765D6 /* SimplePing.m */,
 			);
 			path = raceroute;
 			sourceTree = "<group>";
@@ -96,6 +123,8 @@
 				TargetAttributes = {
 					716862811F710E3900C765D6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XFSPHXXWZY;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +167,11 @@
 			files = (
 				716862881F710E3900C765D6 /* ViewController.swift in Sources */,
 				716862861F710E3900C765D6 /* AppDelegate.swift in Sources */,
+				716862A61F710F2A00C765D6 /* CDZPinger.m in Sources */,
+				7168629A1F710ED800C765D6 /* TraceRoute.m in Sources */,
+				7168629C1F710EE200C765D6 /* Hop.m in Sources */,
+				716862A91F710FF000C765D6 /* SimplePing.m in Sources */,
+				716862A21F710F0E00C765D6 /* BDHost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +296,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XFSPHXXWZY;
 				INFOPLIST_FILE = raceroute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-111.raceroute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "raceroute/SimpleBS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +312,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = XFSPHXXWZY;
 				INFOPLIST_FILE = raceroute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-111.raceroute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "raceroute/SimpleBS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
